@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>내 퍼스널컬러는?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Gowun Batang", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    body {
+      background-color: #fff4ed;
+      color: #5a4a5e;
+    }
+
+    header {
+      background-color: #ffe5dc;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      padding: 1em 5%;
+      box-shadow: 0 2px 5px #ffeaea;
+    }
+
+    .logo img {
+      float: left;
+    }
+
+    nav {
+      float: right;
+    }
+
+    nav a {
+      display: inline-block;
+      margin-left: 1.2em;
+      text-decoration: none;
+      color: #7a5f7a;
+      font-weight: bold;
+      padding: 15px;
+      border-radius: 2em;
+    }
+
+    nav a:hover {
+      background-color: #ffd0e3;
+      color: #5a3f5a;
+    }
+
+     footer {
+      margin-top: 3em;
+      padding: 2em 5%;
+      background-color: #f9e2db;
+      font-size: 0.9em;
+      color: #7a6b7a;
+    }
+
+    main {
+      margin-top: 100px;
+      padding: 2em 5%;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d86b8c;
+      margin-bottom: 2em;
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+
+    form {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .tone-section {
+      background: #ffffff;
+      border-radius: 1em;
+      box-shadow: 0 4px 10px #cccccc;
+      padding: 1.5em;
+      width: 23%;
+      min-width: 200px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 1%;
+    }
+
+    .tone-section h2 {
+      font-size: 1.2em;
+      margin-bottom: 1em;
+      color: #d86b8c;
+      text-align: center;
+    }
+
+    .tone-section input{
+      margin-right: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .guide-text {
+      text-align: center;
+      margin-top: 2em;
+      font-size: 1em;
+      color: #7a5f7a;
+    }
+
+    @media screen and (max-width: 768px) {
+      .tone-section {
+        width: 90%;
+        display: block;
+        margin: 1em auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="로고"></a></div>
+    <nav>
+      <a href="sub1.html">내 퍼스널컬러는?</a>
+      <a href="sub2.html">화장품 추천</a>
+      <a href="sub3.html">염색 가이드</a>
+      <a href="sub4.html">패션 스타일링</a>
+      <a href="sub5.html">톤별 연예인</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>퍼스널컬러 자가진단 체크리스트</h1>
+    <form>
+      <div class="tone-section">
+        <h2>봄 웜톤</h2>
+        <input type="checkbox"> 눈동자 컬러 - 투명한 블랙<br>
+        <input type="checkbox"> 피부 컬러 - 밝은 피부<br>
+        <input type="checkbox"> 어울리는 악세사리 - 골드<br>
+        <input type="checkbox"> 본래 머리카락 색 - 밝은 갈색<br>
+        <input type="checkbox"> 이미지 - 어려 보이고 친밀한 느낌<br>
+        <input type="checkbox"> 잘 어울리는 립컬러 - 피치핑크<br>
+      </div>
+
+      <div class="tone-section">
+        <h2>여름 쿨톤</h2>
+        <input type="checkbox"> 눈동자 컬러 - 밝은 블랙<br>
+        <input type="checkbox"> 피부 컬러 - 건조한 노란기<br>
+        <input type="checkbox"> 어울리는 악세사리 - 광택 적은 실버<br>
+        <input type="checkbox"> 본래 머리카락 색 - 소프트한 검정<br>
+        <input type="checkbox"> 이미지 - 부드럽고 여성스러운 느낌<br>
+        <input type="checkbox"> 잘 어울리는 립컬러 - 로즈핑크<br>
+      </div>
+
+      <div class="tone-section">
+        <h2>가을 웜톤</h2>
+        <input type="checkbox"> 눈동자 컬러 - 붉은끼 있는 블랙<br>
+        <input type="checkbox"> 피부 컬러 - 어두운 피부<br>
+        <input type="checkbox"> 어울리는 악세사리 - 로즈골드<br>
+        <input type="checkbox"> 본래 머리카락 색 - 어두운 갈색<br>
+        <input type="checkbox"> 이미지 - 어른스러면서 차분한 느낌<br>
+        <input type="checkbox"> 잘 어울리는 립컬러 - 살몬핑크<br>
+      </div>
+
+      <div class="tone-section">
+        <h2>겨울 쿨톤</h2>
+        <input type="checkbox"> 눈동자 컬러 - 또렷한 블랙<br>
+        <input type="checkbox"> 피부 컬러 - 희고 붉은 피부<br>
+        <input type="checkbox"> 어울리는 악세사리 - 화려한 실버<br>
+        <input type="checkbox"> 본래 머리카락 색 - 어두운 검정<br>
+        <input type="checkbox"> 이미지 - 도시적이고 샤프한 느낌<br>
+        <input type="checkbox"> 잘 어울리는 립컬러 - 마젠타<br>
+      </div>
+    </form>
+    <br>
+    <br>
+    <p class="guide-text">
+     .•♥ 체크 수가 가장 많은 톤이 바로 당신의 퍼스널컬러입니다!
+    </p>
+  </main>
+
+   <footer>
+    전화 : (02)123-1234, FAX : (02)154-1253<br>
+  이메일 : contact@colorme.kr<br>
+  운영시간 : 평일 09:00 ~ 18:00 (주말 및 공휴일 휴무)<br>
+  주소 : 서울특별시 강남구 가나다로 123, 8층 Color Me<br>
+  ⓒ 2025 Color Me. All rights reserved.
+  </footer>
+
+
+</body>
+</html>

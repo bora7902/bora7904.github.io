@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>톤별 화장품 추천</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Gowun Batang", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    body {
+      background-color: #fff4ed;
+      color: #5a4a5e;
+    }
+
+    header {
+      background-color: #ffe5dc;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      padding: 1em 5%;
+      box-shadow: 0 2px 5px #ffeaea;
+    }
+
+    .logo img {
+      float: left;
+    }
+
+    nav {
+      float: right;
+    }
+
+    nav a {
+      display: inline-block;
+      margin-left: 1.2em;
+      text-decoration: none;
+      color: #7a5f7a;
+      font-weight: bold;
+      padding: 15px;
+      border-radius: 2em;
+    }
+
+    nav a:hover {
+      background-color: #ffd0e3;
+      color: #5a3f5a;
+    }
+
+    footer {
+      margin-top: 3em;
+      padding: 2em 5%;
+      background-color: #f9e2db;
+      font-size: 0.9em;
+      color: #7a6b7a;
+    }
+
+    main {
+      padding: 8em 5% 3em;
+    }
+
+    section {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+
+    .section-row {
+      display: inline-block;
+      text-align: left;
+    }
+
+    .section-row h2 {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #d86b8c;
+      margin-right: 2em;
+    }
+
+    .img-row {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .product {
+      display: inline-block;
+      margin: 1em;
+      vertical-align: top;
+      width: 200px;
+    }
+
+    .product img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .product .brand {
+      font-weight: bold;
+      margin-top: 0.6em;
+      font-size: 0.95em;
+      text-align:center;
+    }
+
+    .product .name {
+      font-size: 0.85em;
+      color: #6e5a6e;
+      margin-top: 0.2em;
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+  <nav>
+    <a href="sub1.html">내 퍼스널컬러는?</a>
+    <a href="sub2.html">화장품 추천</a>
+    <a href="sub3.html">염색 가이드</a>
+    <a href="sub4.html">패션 스타일링</a>
+    <a href="sub5.html">톤별 연예인</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <div class="section-row">
+      <h2>봄 웜톤 추천 화장품</h2>
+      <div class="img-row">
+        <div class="product">
+          <img src="img/spring1.png">
+          <p class="brand">롬앤</p>
+          <p class="name">듀이풀 워터 틴트 코튼멜바</p>
+        </div>
+        <div class="product">
+          <img src="img/spring2.png">
+          <p class="brand">데이지크</p>
+          <p class="name">블렌딩 무드 치크 피치 블렌딩</p>
+        </div>
+        <div class="product">
+          <img src="img/spring3.png">
+          <p class="brand">릴리바이레드</p>
+          <p class="name">무드키보드 웜멤버십</p>
+        </div>
+        <div class="product">
+          <img src="img/spring4.png">
+          <p class="brand">클리오</p>
+          <p class="name">프리즘 에어 하이라이터 골드쉬어</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-row">
+      <h2>여름 쿨톤 추천 화장품</h2>
+      <div class="img-row">
+        <div class="product">
+          <img src="img/summer1.png">
+          <p class="brand">롬앤</p>
+          <p class="name">글래스팅 컬러 글로스 피오니발레</p>
+        </div>
+        <div class="product">
+          <img src="img/summer2.png">
+          <p class="brand">페리페라</p>
+          <p class="name">맑게 물든 선샤인 치크<br> 날씨요정등극해</p>
+        </div>
+        <div class="product">
+          <img src="img/summer3.png">
+          <p class="brand">롬앤</p>
+          <p class="name">베러 댄 팔레트 피오니누드가든</p>
+        </div>
+        <div class="product">
+          <img src="img/summer4.png">
+          <p class="brand">클리오</p>
+          <p class="name">프리즘 하이라이터 그레이스 오팔</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-row">
+      <h2>가을 웜톤 추천 화장품</h2>
+      <div class="img-row">
+        <div class="product">
+          <img src="img/autumn1.png">
+          <p class="brand">롬앤</p>
+          <p class="name">듀이풀 워터 틴트 캐니언</p>
+        </div>
+        <div class="product">
+          <img src="img/autumn2.png">
+         <p class="brand">크리니크</p>
+          <p class="name">치크 팝 팩트 블러셔 누드 팝</p>
+        </div>
+        <div class="product">
+          <img src="img/autumn3.png">
+          <p class="brand">데이지크</p>
+          <p class="name"> 섀도우 팔레트 초콜릿 퍼지</p>
+        </div>
+        <div class="product">
+          <img src="img/autumn4.png">
+          <p class="brand">캐트리스</p>
+          <p class="name">모어 댄 글로우 가루 하이라이터 비욘드 골든 글로우</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-row">
+      <h2>겨울 쿨톤 추천 화장품</h2>
+      <div class="img-row">
+        <div class="product">
+          <img src="img/winter1.png">
+          <p class="brand">에뛰드</p>
+          <p class="name">글로우 픽싱 틴트 레드상그리아</p>
+        </div>
+        <div class="product">
+          <img src="img/winter2.png">
+          <p class="brand">어퓨</p>
+          <p class="name">과즙팡 젤리 블러셔<br>자꾸자두말리지마</p>
+        </div>
+        <div class="product">
+          <img src="img/winter3.png">
+          <p class="brand">웨이크메이크</p>
+          <p class="name">소프트 블러링 아이팔레트<br>하이핑크 블러링</p>
+        </div>
+        <div class="product">
+          <img src="img/winter4.png">
+          <p class="brand">컬러그램</p>
+          <p class="name">밀크 영롱 하트라이터 콩닥핑크</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  전화 : (02)123-1234, FAX : (02)154-1253<br>
+  이메일 : contact@colorme.kr<br>
+  운영시간 : 평일 09:00 ~ 18:00 (주말 및 공휴일 휴무)<br>
+  주소 : 서울특별시 강남구 가나다로 123, 8층 Color Me<br>
+  ⓒ 2025 Color Me. All rights reserved.
+</footer>
+
+</body>
+</html>

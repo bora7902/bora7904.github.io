@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>톤별 연예인</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Gowun Batang", serif;
+    font-weight: 400;
+     font-style: normal;
+    }
+
+    body {
+      background-color: #fff4ed;
+      color: #5a4a5e;
+    }
+
+    header {
+      background-color: #ffe5dc;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      padding: 1em 5%;
+      box-shadow: 0 2px 5px #ffeaea;
+    }
+
+    .logo img {
+      float: left;
+    }
+
+    nav {
+      float: right;
+    }
+
+    nav a {
+      display: inline-block;
+      margin-left: 1.2em;
+      text-decoration: none;
+      color: #7a5f7a;
+      font-weight: bold;
+      padding: 15px;
+      border-radius: 2em;
+    }
+
+    nav a:hover {
+      background-color: #ffd0e3;
+      color: #5a3f5a;
+    }
+
+    main {
+      padding: 8em 5% 3em;
+    }
+
+    .celeb-sections {
+      text-align: center;
+    }
+
+    .celeb-section {
+      display: inline-block;
+      width: 45%;
+      max-width: 300px;
+      margin: 1%;
+      background: #fff;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      padding: 1em;
+      vertical-align: top;
+    }
+
+    .celeb-section h2 {
+      margin-bottom: 0.8em;
+      color: #d86b8c;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .celeb-item {
+      margin-bottom: 1em;
+    }
+
+    .celeb-item img {
+  width: 200px;
+  height: 250px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 0.5em;
+    }
+
+    .celeb-name {
+      font-size: 1em;
+    }
+
+    .video-section {
+      margin-top: 3em;
+      text-align: center;
+    }
+
+    .video-box {
+      display: inline-block;
+      width: 45%;
+      max-width: 400px;
+      margin: 1%;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: 3em;
+      padding: 2em 5%;
+      background-color: #f9e2db;
+      font-size: 0.9em;
+      color: #7a6b7a;
+      clear: both;
+    }
+
+    @media screen and (max-width: 768px) {
+      .celeb-section, .video-box {
+        width: 100%;
+        max-width: none;
+      }
+
+      .celeb-item img {
+        max-width: 100px;
+      }
+
+      main {
+        padding-top: 6em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+  <nav>
+    <a href="sub1.html">내 퍼스널컬러는?</a>
+    <a href="sub2.html">화장품 추천</a>
+    <a href="sub3.html">염색 가이드</a>
+    <a href="sub4.html">패션 스타일링</a>
+    <a href="sub5.html">톤별 연예인</a>
+  </nav>
+</header>
+
+<main>
+  <div class="celeb-sections">
+    <div class="celeb-section">
+      <h2>봄 웜톤</h2>
+      <div class="celeb-item">
+        <img src="img/celeb-yoona.png">
+        <div class="celeb-name">소녀시대 윤아</div>
+      </div>
+      <div class="celeb-item">
+        <img src="img/celeb-ParkMinyoung.png">
+        <div class="celeb-name">배우 박민영</div>
+      </div>
+      <div class="celeb-item">
+        <img src="img/celeb-suzi.png">
+        <div class="celeb-name">미쓰에이 수지</div>
+      </div>
+    </div>
+
+    <div class="celeb-section">
+      <h2>여름 쿨톤</h2>
+      <div class="celeb-item">
+        <img src="img/celeb-irene.png">
+        <div class="celeb-name">레드벨벳 아이린</div>
+      </div>
+      <div class="celeb-item">
+        <img src="img/celeb-sonyejin.png">
+        <div class="celeb-name">배우 손예진</div>
+      </div>
+      <div class="celeb-item">
+        <img src="img/celeb-TaeYeon.png">
+        <div class="celeb-name">소녀시대 태연</div>
+      </div>
+    </div>
+
+    <div class="celeb-section">
+      <h2>가을 웜톤</h2>
+      <div class="celeb-item">
+        <img src="img/celeb-jennie.png">
+        <div class="celeb-name">블랙핑크 제니</div>
+      </div>
+      <div class="celeb-item">
+        <img src="img/celeb-leesungkyung.png">
+        <div class="celeb-name">배우 이성경</div>
+      </div>
+      <div class="celeb-item">
+        <img src="img/celeb-kimyoojung.png">
+        <div class="celeb-name">배우 김유정</div>
+      </div>
+    </div>
+
+    <div class="celeb-section">
+      <h2>겨울 쿨톤</h2>
+      <div class="celeb-item">
+        <img src="img/celeb-jisoo.png">
+        <div class="celeb-name">블랙핑크 지수</div>
+      </div>
+      <div class="celeb-item">
+        <img src="img/celeb-imjiyeon.png" >
+        <div class="celeb-name">배우 임지연</div>
+      </div>
+      <div class="celeb-item">
+        <img src="img/celeb-karina.png" >
+        <div class="celeb-name">에스파 카리나</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-section">
+    <div class="video-box">
+      <video controls>
+        <source src="img/celeb1.mp4" type="video/mp4">
+      </video>
+      <p>런닝맨 예능으로 보는 유재석 퍼스널컬러</p>
+    </div>
+    <div class="video-box">
+      <video controls>
+        <source src="img/celeb2.mp4" type="video/mp4">
+      </video>
+      <p>나혼자산다 예능으로 보는 전현무 퍼스널컬러</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  전화 : (02)123-1234, FAX : (02)154-1253<br>
+  이메일 : contact@colorme.kr<br>
+  운영시간 : 평일 09:00 ~ 18:00 (주말 및 공휴일 휴무)<br>
+  주소 : 서울특별시 강남구 가나다로 123, 8층 Color Me<br>
+  ⓒ 2025 Color Me. All rights reserved.
+</footer>
+
+</body>
+</html>
